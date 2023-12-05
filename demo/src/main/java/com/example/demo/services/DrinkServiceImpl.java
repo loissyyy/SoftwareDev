@@ -52,6 +52,7 @@ public class DrinkServiceImpl implements DrinkService{
             updateDrink.setCompany(drink.getCompany());
             updateDrink.setName(drink.getName());
             updateDrink.setType(drink.getType());
+            updateDrink.setPrice(drink.getPrice());
             updateDrink.setId(drink.getId());
             updateDrink.setIngredientList(drink.getIngredientList());
 
